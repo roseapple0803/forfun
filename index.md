@@ -30,11 +30,9 @@ This is an explanation
 --- &interactive
 ## Interactive Console
 
-```{r opts.label = 'interactive', results = 'asis'}
-require(googleVis)
+<textarea class='interactive' id='interactive{{slide.num}}' data-cell='{{slide.num}}' data-results='asis' style='display:none'>require(googleVis)
 M1 <- gvisMotionChart(Fruits, idvar = 'Fruit', timevar = 'Year')
-print(M1, tag = 'chart')
-```
+print(M1, tag = 'chart')</textarea>
 
 
 
